@@ -2,8 +2,9 @@
 Simulate city-wide taxi movement.
 
 # Pre-request
+GDAL
 OSRM installed as lib
-A set of working .osrm map data files (generated using osrm-extract, osrm-prepare). You may need a profile.lua file to generate these files from a OSM map file. 
+A set of working .osrm map data files (generated using osrm-extract, osrm-prepare). You may need a profile.lua file to generate these files from a OSM map file. Also copy SampleTiff.tif into the current folder.
 
 # Install
 ```

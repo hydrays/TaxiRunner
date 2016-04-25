@@ -17,7 +17,7 @@ class Collector
   int Ndim, Mdim;
   double * WeightMatrix1;
   double * WeightMatrix2;
-  std::string mapfile = "Map.osrm";
+  std::string mapfile = "gridMap.osrm";
   std::string ODfileName = "od_sample.txt";
   std::vector<Trajct> trajctList;
   Collector();

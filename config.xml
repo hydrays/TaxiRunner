@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<main>  
+  <Ndim>64</Ndim>  
+  <Mdim>64</Mdim>  
+  <lonmin>116.2847</lonmin>  
+  <lonmax>116.36</lonmax>  
+  <latmin>39.95</latmin>  
+  <latmax>40.00766</latmax>  
+  <predict_window>1800</predict_window>  
+  <output_file_prefix>ex</output_file_prefix>  
+  <output_path>out</output_path>  
+  <max_path_length>800</max_path_length>  
+  <max_car_list_length>10000</max_car_list_length>  
+  <lambda>0.8</lambda>  
+  <SupportFiles>
+    <file_capacity_coefficient>VNrelation/CapacityCoefficient.txt</file_capacity_coefficient>  
+    <file_VNrelation>VNrelation/VNrelation.tif</file_VNrelation>  
+    <file_path>path/pathlist.txt</file_path>
+    <path_repository>path/</path_repository>
+    <data_stream>DataStream/VFeed</data_stream>  
+  </SupportFiles>
+</main>
